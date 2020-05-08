@@ -13,6 +13,10 @@
 		C4A12A0024655210005DC202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A129FE24655210005DC202 /* Main.storyboard */; };
 		C4A12A0224655216005DC202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A12A0124655216005DC202 /* Assets.xcassets */; };
 		C4A12A0524655216005DC202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A12A0324655216005DC202 /* LaunchScreen.storyboard */; };
+		C4A12A0D24655DDD005DC202 /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12A0C24655DDD005DC202 /* HouseInfo.swift */; };
+		C4A12A0F24655E38005DC202 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12A0E24655E38005DC202 /* Houses.swift */; };
+		C4A12A112465B1E1005DC202 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12A102465B1E1005DC202 /* DetailViewController.swift */; };
+		C4A12A132465BE0F005DC202 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A12A122465BE0F005DC202 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C4A12A0124655216005DC202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A12A0424655216005DC202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A12A0624655216005DC202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A12A0C24655DDD005DC202 /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
+		C4A12A0E24655E38005DC202 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		C4A12A102465B1E1005DC202 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C4A12A122465BE0F005DC202 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				C4A129F824655210005DC202 /* AppDelegate.swift */,
 				C4A129FA24655210005DC202 /* SceneDelegate.swift */,
+				C4A12A0C24655DDD005DC202 /* HouseInfo.swift */,
+				C4A12A0E24655E38005DC202 /* Houses.swift */,
+				C4A12A122465BE0F005DC202 /* SplashScreenViewController.swift */,
 				C4A129FC24655210005DC202 /* ViewController.swift */,
+				C4A12A102465B1E1005DC202 /* DetailViewController.swift */,
 				C4A129FE24655210005DC202 /* Main.storyboard */,
 				C4A12A0124655216005DC202 /* Assets.xcassets */,
 				C4A12A0324655216005DC202 /* LaunchScreen.storyboard */,
@@ -140,6 +152,10 @@
 			files = (
 				C4A129FD24655210005DC202 /* ViewController.swift in Sources */,
 				C4A129F924655210005DC202 /* AppDelegate.swift in Sources */,
+				C4A12A132465BE0F005DC202 /* SplashScreenViewController.swift in Sources */,
+				C4A12A0F24655E38005DC202 /* Houses.swift in Sources */,
+				C4A12A112465B1E1005DC202 /* DetailViewController.swift in Sources */,
+				C4A12A0D24655DDD005DC202 /* HouseInfo.swift in Sources */,
 				C4A129FB24655210005DC202 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
